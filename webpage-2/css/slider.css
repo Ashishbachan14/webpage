@@ -1,0 +1,54 @@
+/* Style for the slider container */
+.slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-top: 50px; /* Adjust as needed */
+}
+
+/* Style for each slide within the slider */
+.swiper-slide {
+  text-align: center;
+}
+
+/* Style for the class-thumb container */
+.class-thumb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Style for the class-info */
+.class-info {
+  margin-top: 15px; /* Adjust as needed */
+}
+
+/* Style for the images within the slider */
+.class-thumb img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px; /* Add border-radius for rounded corners if desired */
+}
+
+/* Style for the pagination and navigation buttons */
+.swiper-pagination,
+.swiper-button-next,
+.swiper-button-prev {
+  margin-top: 15px; /* Adjust as needed */
+}
+
+/* Style for the pagination bullets */
+.swiper-pagination-bullet {
+  background-color: #fff; /* Change the bullet color */
+  width: 10px; /* Set the bullet width */
+  height: 10px; /* Set the bullet height */
+  opacity: 0.7; /* Set the bullet opacity */
+  margin: 0 5px; /* Adjust the spacing between bullets */
+}
+
+/* Style for the active pagination bullet */
+.swiper-pagination-bullet-active {
+  opacity: 1; /* Set the active bullet opacity */
+}
